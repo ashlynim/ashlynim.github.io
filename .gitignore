@@ -1,0 +1,19 @@
+# Generated files by hugo
+/public/
+/resources/_gen/
+hugo_stats.json
+
+# Executables (if you don't want to commit them)
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
+
+# Node.js dependencies (if using npm for themes or assets)
+/node_modules/
+
+# Editor/OS specific files (optional)
+.idea/
+.DS_Store
