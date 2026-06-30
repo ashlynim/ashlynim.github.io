@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Ashlyn Im'
 theme = 'LoveIt'
 
+[author]
+  name = "Ashlyn Im"
+  link = "https://ashlynim.github.io/"
+
 [params]
   version = "0.2.X"
   description = "Data Scientist & Software Engineer"
