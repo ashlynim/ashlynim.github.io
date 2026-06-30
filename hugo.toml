@@ -30,6 +30,10 @@ theme = 'LoveIt'
     Instagram = "imiminx"
     GitHub = "ashlynim"
 
+  [params.footer]
+    since = 2026
+    author = true
+
   [params.page]
     [params.page.toc]
       enable = true
