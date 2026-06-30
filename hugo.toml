@@ -1,7 +1,61 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ashlynim.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Ashlyn Im'
 theme = 'LoveIt'
+
+[params]
+  version = "0.2.X"
+  description = "Data Scientist & Software Engineer"
+  images = ["/images/ashlynim_homepage.jpg"]
+
+  [params.header]
+    [params.header.title]
+      name = "Ashlyn Im"
+      logo = "/images/ashlyn_im_logo.png"
+
+  [params.home]
+    [params.home.profile]
+      enable = true
+      avatarURL = "/images/ashlynim_homepage.jpg"
+      title = "Ashlyn Im"
+      subtitle = "A programmer and traveller. Data science & software engineering."
+      social = true
+
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  [params.social]
+    LinkedIn = "ashlynim"
+    Instagram = "imiminx"
+    GitHub = "ashlynim"
+
+  [params.page]
+    [params.page.toc]
+      enable = true
+    [params.page.share]
+      enable = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+
+[markup]
+  [markup.highlight]
+    noClasses = false
 
 [caches]
   [caches.images]
