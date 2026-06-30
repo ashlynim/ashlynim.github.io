@@ -12,6 +12,10 @@ theme = 'LoveIt'
   description = "Data Scientist & Software Engineer"
   images = ["/images/ashlynim_homepage.jpg"]
 
+  [params.author]
+    name = "Ashlyn Im"
+    link = "https://ashlynim.github.io/"
+
   [params.header]
     [params.header.title]
       name = "Ashlyn Im"
